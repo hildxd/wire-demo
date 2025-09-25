@@ -1,0 +1,27 @@
+# Go
+# 编译生成的可执行文件
+*.exe
+*.test
+*.test.exe
+*.prof
+*.prof.zip
+*.out
+!go.test
+
+# 编译和测试缓存
+*.o
+*.so
+*.a
+pkg/
+bin/
+
+# 依赖管理 (请勿忽略 go.mod 和 go.sum)
+vendor/
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+.DS_Store
+
+# 操作系统文件
+Thumbs.db
